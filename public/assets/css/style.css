@@ -1,0 +1,29 @@
+/*Titre*/
+h1{
+    height: 100px;
+    width: 1512px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: rgba(8, 83, 152, 0.9);
+
+
+}
+/*Menu*/
+.fixe{
+    display: flex;
+    height: 55 px;
+    width: 355 px;
+    left: 22 px;
+    top: 74 px;
+    border-radius: null px;
+    font-family: Inter;
+    font-size: 27 px;
+    font-weight: 300 px;
+    line-height: 33 px;
+    letter-spacing: 0 em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+
+}
