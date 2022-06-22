@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+.globalContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.container1 {
+    background-color: #61A4CB;
+    height: 10vh;
+}
+.container2 {
+    background-color: #1A4867;
+}
+.container3 {
+    background-color: #ffffff;
+}
+.container4 {
+    background-color: violet;
+}
