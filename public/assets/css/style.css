@@ -1,4 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    /* background-color: rebeccapurple; */
+}
+
+.footerContainer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "contact mention scrollup"
+    "sign sign sign"
+}
+
+#sign {
+    grid-area: sign;
+    font-size: 10px;
+    justify-content: center;
+}
+
+#contact {
+    grid-area: contact;
+}
+
+#scrollToTop {
+    grid-area: scrollup;
+    width: 25px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+}
+
+#scrollToTop img {
+    width: 20px;
+}
+
+#legalMention {
+    grid-area: mention;
 }
