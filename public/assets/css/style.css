@@ -19,6 +19,7 @@ nav{
     background-color:rgb(32,100,162);
     border:1px solid white;
     position: fixed;
+    text-align:center;
 }
 nav ul{
     margin:0px;
