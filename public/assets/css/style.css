@@ -3,27 +3,37 @@
     margin:0px;
     padding:0px;
 }
+/* Header */
+.header {
+    background-color: #61A4CB;
+}
 /*Titre*/
 h1{
+    margin-top: 2%;
     text-align: center;
     height: 50px;
-    width:100%;
+    width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    background-color: rgba(8, 83, 152, 0.9);
+    background-color: #61A4CB;
 }
 /*Menu*/
 nav{
     width:100%;
-    background-color:rgb(32,100,162);
+    background-color: #61A4CB;
     border:1px solid white;
     position: fixed;
 }
 nav ul{
-    margin:0px;
-    padding:0px;
-    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 nav li{
     list-style-type:none;
@@ -35,6 +45,7 @@ nav a{
     display:inline-block;
     text-decoration:none;
     padding:20px 30px;
+    border: 1px solid white;
     color:white;
 }
 
@@ -54,6 +65,7 @@ body {
     row-gap: 0.5%;
 }
 .firstParty {
+    margin-top: 15%;
     grid-row: 1 / 2;
     grid-column: 2 / 4;
     background-color: white;
