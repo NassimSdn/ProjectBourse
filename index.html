@@ -7,38 +7,132 @@
 
     <title>Project Bourse</title>
 </head>
+<!-- Debut du body -->
 <body>
-    <header>
+    <header class="header">
        <!--Menu-->
         <nav>
             <h1>Bourse aux produits High-Teck La Manu</h1>
             <ul>
-                <li class="computer"><a href="#text">Ordinateur</a></li>
-                <li class="phone"><a href="#test2">Téléphones</a></li>
-                <li class="table"><a href="#test3">Tablettes</a></li>
-                <li class="other"><a href="#test4">Autres</a></li>
+                <li class="computer"><a href="#computer">Ordinateur</a></li>
+                <li class="phone"><a href="#phone">Téléphones</a></li>
+                <li class="table"><a href="#table">Tablettes</a></li>
+                <li class="other"><a href="#other">Autres</a></li>
               </ul>
         </nav>
     </header>
-    <!--Contenu-->
     <main>
+        <!-- Debut display grid -->
         <div class="globalContainer">
-            <div class="firstparty" id="text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?
+            <!-- En tête de page déscriptif lieu et évenement -->
+            <div class="firstParty">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?</p>
             </div>
-            <div class="container1" id="test2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum debitis sequi. Esse eius nemo odio neque similique ullam eaque quibusdam distinctio aliquam? Laborum, quas beatae ullam maxime consectetur eveniet!
+            <!-- Fin en tête de page -->
+            <!-- Ordinateur -->
+            <div class="container1" id="computer">
+                <div class="contentsContainer">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?</p>
+                </div>
             </div>
-            <div class="container2" id="test3">
-                test2
+            <!-- Fin Ordinateur -->
+            <!-- Télephone -->
+            <div class="container2">
+                <div class="contentsContainer" id="phone">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?</p>
+                </div>
             </div>
-            <div class="container3" id="test4">
-                test3
+            <!-- Fin de télephone -->
+            <!-- Tablette -->
+            <div class="container3">
+                <div class="contentsContainer" id="table">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?</p>
+                </div>
             </div>
-            <div class="container4" id="test5">
-                test4
+            <!-- Fin de Tablette -->
+            <!-- Autres -->
+            <div class="container4">
+                <div class="contentsContainer" id="other">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim eveniet, exercitationem commodi provident illo alias, quas numquam ab quaerat distinctio non necessitatibus minima qui aspernatur, hic praesentium facilis. Autem, perferendis?</p>
+                </div>
             </div>
+            <!-- Fin des Autres -->
+            <!-- Formulaire -->
+            <div class="form">
+                <form action="/ma-page-de-traitement" method="post">
+                        <h3>Contactez-nous</h3>
+                        <p>Un problème, une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                        <form action="/page-traitement-donnees" method="post">
+                        <div>
+                        <label for="firstNam">Votre Prénom</label>
+                        <input type="text" id="firstNam" name="firstNam" placeholder="Martin" required>
+                        </div>
+                        <div>
+                        <label for="Name">Votre nom</label>
+                        <input type="Name" id="Name" name="Name" placeholder="Dubois" required>
+                        </div>
+                        <div>
+                        <label for="Email">Votre e-mail</label>
+                        <input type="Email" id="Email" name="Email" placeholder="monadresse@mail.com" required>
+                        </div>
+                        <div>
+                        <label for="Date">Quel date vous convient ?</label>
+                        <select name="Date" id="Date" required>
+                        <option value="DateChoise" disabled selected hidden>Choisissez la date et l'heure</option>
+                        <option value="Tuesday1">Mardi 05/07/2022 14:30</option>
+                        <option value="Tuesday2">Mardi 05/07/2022 17:30</option>
+                        <option value="Wednesday">Mercredi 06/07/2022 15:00</option>
+                        </select>
+                        </div>
+                        <div>
+                        <label for="message">Une question ?</label>
+                        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                        </div>
+                        <div>
+                        <button type="submit">Envoyer mon message</button>
+                        </div>
+                        </form>
+                </form>
+            </div>
+            <!-- Fin de formulaire -->
+            <!-- Fin display Grid -->
         </div>
     </main>
+    <!----------------------------- Début du footer --------------------------->
+    <footer>
+        <div class="footerContainer">
+            <div class="fContainer">
+                <div class="footer">
+                    <div id="contact">
+                        <h4>Contact</h4>
+                        <p>06 60 06 60 06</p>
+                    </div>
+                    <div id="adress">
+                        <h4>Adresse</h4>
+                        <p>LaManu Amiens</p>
+                    </div>
+                    <div id="hours">
+                        <h4>Horaires</h4>
+                        <p>Lundi-Samedi : 10h-17h</p>
+                    </div>
+                    <div id="partnairs">
+                        <h4>Partenaires:</h4>
+                        <p>LaManu</p>
+                        <p>Amiens Métropole</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sign">       
+            <p>Devellopé par Nassim, Muriel et Alexis</p>
+        </div>
+        <div id="legalMention">
+            <a href="potiblageur.html">Mentions Légales</a>
+        </div>
+        <div id="scrollToTop">
+            <a href="#top"><img src="./public/assets/img/upPage.png" alt="Retourner en haut"></a>
+        </div>
+    </footer>
 </body>
+<!-- Fin du body -->
 </html>
