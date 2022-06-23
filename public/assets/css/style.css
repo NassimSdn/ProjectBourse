@@ -85,9 +85,10 @@ nav a{
 /****************************** Footer ******************************/
 
 .footerContainer {
-    background-color: black;
-    height: 400px;
-    justify-items: center;
+    display: flex;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    height: 200px;
+    justify-content: center;
 }
 .fContainer {
     display: flex;
@@ -95,7 +96,6 @@ nav a{
     justify-content: center;
 }
 .footer {
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 50px;
@@ -135,7 +135,6 @@ nav a{
 
 #partnairs {
     display: flex;
-    border-right: solid black 1px;
     padding: 10px;
     grid-row: 1 / 3;
     grid-column: 4 / 5;
@@ -155,7 +154,7 @@ nav a{
     position: fixed;
     width: 25px;
     height: 25px;
-    bottom: 200px;
+    bottom: 100px;
     right: 30px;
 }
 
