@@ -1,7 +1,12 @@
 /*Titre*/
+*{
+    margin:0px;
+    padding:0px;
+}
 h1{
-    height: 100px;
-    width: 1512px;
+    text-align: center;
+    height: 60px;
+    width:100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
@@ -9,9 +14,26 @@ h1{
 
 
 }
+nav{
+    width:100%;
+    background-color:rgb(32,100,162);
+}
+nav ul{
+    margin:0px;
+    padding:0px;
+    overflow: :hidden;
+}
+nav li{
+    list-style-type: :none;
+    float:left;
+}
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    padding:20px 30px;
+}
 /*Menu*/
 .fixe{
-    display: flex;
     height: 55 px;
     width: 355 px;
     left: 22 px;
