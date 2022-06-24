@@ -81,7 +81,7 @@ body {
     grid-template-rows: repeat(6, 1fr);
     margin-top: 2%;
     margin-bottom: 2%;
-    row-gap: 0.5%;
+    row-gap: 1%;
     justify-items: center;
 }
 .firstParty {
@@ -168,14 +168,18 @@ fieldset{
 }
 .form {
     grid-row: 6 / 7;
+    display: flex;
     grid-column: 1 / 5;
     text-align: center;
     margin-left: 0%;
     margin-right: 0%;
-    height: auto;
-    background-color: white;
+    height: 50vh;
+    background: linear-gradient(180deg, #1A4867 0%, #61A4CB 100%);
     box-shadow: -10px 0px 20px -7px #000000, 10px 0px 20px -7px #000000, 0px 0px 5px 7px rgb(0 0 0 / 0%);
     border-radius: 25px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
 }
 li{
     list-style-type: none;
