@@ -2,6 +2,7 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Coming Soon', cursive;
 }
 /* Header */
 .header {
@@ -52,7 +53,6 @@ nav a{
 
 /*Body*/
 body {
-    font-family: Montserrat, "sans-serif";
     justify-content: center;
     color: #303030;
     background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
