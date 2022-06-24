@@ -2,7 +2,7 @@
 *{
     margin:0px;
     padding:0px;
-    font-family: 'Coming Soon', cursive;
+    font-family: 'Gotham light', cursive;
 }
 /* Header */
 .header {
@@ -17,13 +17,13 @@ h1{
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    background-color:rgb(49,122,189);
+    background-color: #1A4867;
     color:white;
 }
 /*Menu*/
 nav{
     width:100%;
-    background: linear-gradient(180deg, rgba(8, 83, 152, 0.9) 0%, rgba(79, 170, 255, 0.9) 100%);
+    background: linear-gradient(180deg, #1A4867 0%, #61A4CB 100%);
     border:1px solid white;
     position: fixed;
     text-align:center;
@@ -157,7 +157,7 @@ body {
 }
 /*Style formulaire*/
 fieldset{
-    background: linear-gradient(180deg, rgba(8, 83, 152, 0.9) 0%, rgba(79, 170, 255, 0.9) 100%);
+    background: linear-gradient(180deg, #1A4867 0%, #61A4CB 100%);
     border-radius:25px;
     color:white;
 
@@ -165,7 +165,7 @@ fieldset{
 }
 .form {
     grid-row: 6 / 7;
-    grid-column: 2 / 4;
+    grid-column: 1 / 5;
     text-align: center;
     margin-left: 0%;
     margin-right: 0%;
@@ -263,4 +263,7 @@ li{
 #scrollToTop img {
     width: 20px;
 }
-
+.footerFirst {
+    background-color: #1A4867;
+    color: white;
+}
