@@ -19,6 +19,12 @@ h1{
     background-color:rgb(49,122,189);
     color:white;
 }
+/*QR Code*/
+.qrcode{
+    
+    width:150px;
+    height:150px;
+}
 /*Menu*/
 nav{
     width:100%;
