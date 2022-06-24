@@ -20,6 +20,7 @@
                 <li class="phone"><a href="#phone">Téléphones</a></li>
                 <li class="table"><a href="#table">Tablettes</a></li>
                 <li class="other"><a href="#other">Autres</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
               </ul>
         </nav>
     </header>
@@ -74,38 +75,49 @@
             <!-- Formulaire -->
             <div class="form">
                 <form action="/ma-page-de-traitement" method="post">
-                        <h3>Contactez-nous</h3>
-                        <p>Un problème, une question, envie de nous envoyer un message ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
-                        <form action="/page-traitement-donnees" method="post">
-                            <div>
-                                <label for="firstNam">Votre Prénom</label>
-                                <input type="text" id="firstNam" name="firstNam" placeholder="Martin" required>
-                            </div>
-                            <div>
-                                <label for="Name">Votre nom</label>
-                                <input type="Name" id="Name" name="Name" placeholder="Dubois" required>
-                            </div>
-                            <div>
-                                <label for="Email">Votre e-mail</label>
-                                <input type="Email" id="Email" name="Email" placeholder="monadresse@mail.com" required>
-                            </div>
-                            <div>
-                                <label for="Date">Quel date vous convient ?</label>
-                                <select name="Date" id="Date" required>
+                    <fieldset id="contact">
+                            <h3>Contactez-nous</h3>
+                            <br>
+                            <p>Un problème, une question,<br>envie de nous envoyer<br>un message ? <br>
+                                N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+                            <br> 
+                            <ol>
+                                <li>
+                                    <label for="firstNam">Votre Prénom:</label>
+                                    <input type="text" id="firstNam" name="firstNam" placeholder="Martin" required>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Name">Votre nom:</label>
+                                    <input type="Name" id="Name" name="Name" placeholder="Dubois" required>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Email">Votre e-mail:</label>
+                                    <input type="Email" id="Email" name="Email" placeholder="monadresse@mail.com" required>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="Date">Quel date vous convient?</label>
+                                    <select name="Date" id="Date" required>
                                     <option value="DateChoise" disabled selected hidden>Choisissez la date et l'heure</option>
                                     <option value="Tuesday1">Mardi 05/07/2022 14:30</option>
                                     <option value="Tuesday2">Mardi 05/07/2022 17:30</option>
                                     <option value="Wednesday">Mercredi 06/07/2022 15:00</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label for="message">Une question ?</label>
-                                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
-                            </div>
-                            <div>
-                                <button type="submit">Envoyer mon message</button>
-                            </div>
-                        </form>
+                                    </select>
+                                </li>
+                                <br>
+                                <li>
+                                    <label for="message">Une question?</label>
+                                    <br>
+                                    <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                                </li>
+                                <br>
+                                <li>
+                                    <button type="submit">Envoyer mon message</button>
+                                </li>
+                            </ol>
+                        </fieldset>
                 </form>
             </div>
             <!-- Fin de formulaire -->
@@ -142,7 +154,7 @@
             </div>
         </div>
         <div id="sign">       
-            <p>Devellopé par Nassim, Muriel et Alexis</p>
+            <p>Dévellopé par Nassim, Muriel et Alexis</p>
         </div>
         <div id="legalMention">
             <a href="potiblageur.html">Mentions Légales</a>

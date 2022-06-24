@@ -15,22 +15,23 @@
 }
 /*Titre*/
 h1{
-    margin-top: 2%;
+    margin-top: -2%;
     text-align: center;
     height: 50px;
     width: 100%;
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    background-color: #61A4CB;
+    background-color:rgb(49,122,189);
+    color:white;
 }
 /*Menu*/
 nav{
-    width: 100%;
-    background-color: #61A4CB;
-    border: 1px solid white;
+    width:100%;
+    background: linear-gradient(180deg, rgba(8, 83, 152, 0.9) 0%, rgba(79, 170, 255, 0.9) 100%);
+    border:1px solid white;
     position: fixed;
-    margin-top: -2%;
+    text-align:center;
 }
 nav ul{
     margin: 0px;
@@ -55,7 +56,24 @@ nav a{
     border: 1px solid white;
     color:white;
 }
+.computer:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
 
+}
+.phone:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
+}
+.table:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
+
+}
+.other:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
+
+}
+.contact:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
+}
 /*Body*/
 body {
     font-family: 'font-1';
@@ -101,6 +119,7 @@ body {
 } */
 
 .container1 {
+    width: 100%;
     display: flex;
     background-color: #61A4CB;
     grid-row: 2 / 3;
@@ -110,6 +129,7 @@ body {
     justify-content: center;
 }
 .container2 {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,6 +139,7 @@ body {
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgb(0 0 0 / 0%);
 }
 .container3 {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +169,28 @@ body {
     width: 80%;
     background-color: white;
     box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 5px 7px rgb(0 0 0 / 0%);
+}
+/*Style formulaire*/
+fieldset{
+    background: linear-gradient(180deg, rgba(8, 83, 152, 0.9) 0%, rgba(79, 170, 255, 0.9) 100%);
+    border-radius:25px;
+    color:white;
+
+
+}
+.form {
+    grid-row: 6 / 7;
+    grid-column: 2 / 4;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: auto;
+    background-color: white;
+    box-shadow: -10px 0px 20px -7px #000000, 10px 0px 20px -7px #000000, 0px 0px 5px 7px rgb(0 0 0 / 0%);
+    border-radius: 25px;
+}
+li{
+    list-style-type: none;
 }
 
 
