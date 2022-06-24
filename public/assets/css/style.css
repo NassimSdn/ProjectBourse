@@ -16,7 +16,8 @@ h1{
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    background-color: #61A4CB;
+    background-color:rgb(49,122,189);
+    color:white;
 }
 /*Menu*/
 nav{
@@ -64,7 +65,9 @@ nav a{
     background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
 
 }
-
+.contact:hover{
+    background: linear-gradient(180deg, rgba(7, 255, 166, 0.29) 0%, rgba(0, 113, 129, 0.29) 100%);
+}
 /*Body*/
 body {
     font-family: Montserrat, "sans-serif";
