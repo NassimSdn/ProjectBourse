@@ -29,7 +29,6 @@ h1{
 .navlogo {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 1%;
     align-content: center;
     align-items: center;
 }
