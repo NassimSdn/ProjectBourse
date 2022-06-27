@@ -110,12 +110,13 @@ body {
 }
 .firstPartyh1 h1 {
     color: white;
-    background-color: #1a00797c;
-
+    /* background-color: #1a00797c; */
+    -webkit-text-stroke: 0.5px #000000;
 }
 .firstParty p {
     color: white;
-    background-color: #1a00797c;
+    /* background-color: #1a00797c; */
+    -webkit-text-stroke: 0.5px #000000;
 }
 .container1 {
     width: 90%;
