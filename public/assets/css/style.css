@@ -14,18 +14,7 @@
 .header {
     background-color: #61A4CB;
 }
-/*Titre*/
-h1{
-    /* margin-top: -2%;
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
-    background-color: #1A4867;
-    color:white; */
-}
+
 /*QR Code*/
 .qrcode{
     
@@ -168,18 +157,6 @@ body {
     align-items: center;
     margin-top: 2%;
     border-radius: 15px;
-}
-.form {
-    /* width: 100%;
-    display: flex;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-align: center;
-    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);    border:1px solid white;
-    box-shadow: -10px 0px 20px -7px #000000, 10px 0px 20px -7px #000000, 0px 0px 5px 7px rgb(0 0 0 / 0%);
-    border-radius: 15px;
-    justify-content: center;
-    flex-direction: column; */
 }
 
 .imgContainer2 {
