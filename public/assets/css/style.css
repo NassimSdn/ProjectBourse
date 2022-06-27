@@ -227,6 +227,7 @@ li{
     grid-template-rows: 50px;
     text-align: center;
     border-right: 5px #000000;
+    align-items: baseline;
 }
 
 #adress {
