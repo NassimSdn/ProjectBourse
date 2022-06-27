@@ -28,8 +28,8 @@ html {
     align-content: center;
     align-items: center;
 }
-.navlogo img {
-    width: 5%;
+.navlogo a img {
+    width: 30%;
 }
 nav{
     width:100%;
